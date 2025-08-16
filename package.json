@@ -1,0 +1,12 @@
+{
+  "name": "flowise-render-deploy",
+  "version": "1.0.0",
+  "description": "Flowise deployment for Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx flowise start"
+  },
+  "dependencies": {
+    "flowise": "latest"
+  }
+}

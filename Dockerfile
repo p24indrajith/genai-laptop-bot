@@ -1,5 +1,7 @@
-FROM node:20-alpine
-WORKDIR /usr/src/app
-RUN npm install -g flowise
+FROM flowiseai/flowise:latest
+
+# Expose Flowise default port
 EXPOSE 3000
-CMD [ "npx", "flowise", "start" ]
+
+# Run Flowise
+CMD ["npm", "run", "start"]
